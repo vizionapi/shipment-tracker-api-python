@@ -4,7 +4,10 @@ This project is a basic example implementation of the Vizion tracking API to pro
 
 # Getting Started
 1. Clone the repo to your machine
-2. Rename/copy `.env.sample` file to `.env` and replace API key and/or database URI.
-3. (optional) Create a virtual Python environment in the project directory and activate
-4. Install dependencies (`pip install -r requirements.txt`)
-5. Start API server (`python api.py`)
+1. Rename/copy `.env.sample` file to `.env` and replace API key and/or database URI.
+1. (optional) Create a virtual Python environment in the project directory and activate
+1. Install dependencies (`pip install -r requirements.txt`)
+1. Create database in Python console
+    - `>>> from api import db`
+    - `>>> db.create_all()`
+1. Start API server (`python api.py`)
